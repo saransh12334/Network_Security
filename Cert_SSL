@@ -1,0 +1,8 @@
+#! /bin/bash
+
+cd /root/Downloads/
+mkdir fake-ap
+openssl req -new -x509 -days 365 -out /root/Downloads/fake-ap/cert.pem -keyout /root/Dowloads/fake-ap/cert.key
+
+echo "DONE"
+
